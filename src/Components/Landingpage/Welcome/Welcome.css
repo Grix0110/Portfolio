@@ -1,0 +1,15 @@
+.container-one {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 100vw;
+    height: 100vh;
+    background-color: mistyrose;
+}
+
+.container-one > h1 {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    color: black;
+    text-align: center;
+}
