@@ -20,3 +20,9 @@
     grid-row: 7 / 9;
     text-align: center;
 }
+
+button {
+    height: 3em;
+    width: 9em;
+    border-radius: 3em;
+}
