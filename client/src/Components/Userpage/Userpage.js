@@ -1,10 +1,18 @@
 import React from "react";
-import Usernavigation from "./Usernavigation/Usernavigation";
+import Header from "./User-Header/Header"
+import UserIntroduction from "./User-introduction/Introduction";
+import Service from "./User-Service/Service";
+import Welcome from "./User-Welcome/Welcome";
+import Contact from "./User-Contact/Contact";
 
 export default function Landingpage() {
     return (
         <>
-            <Usernavigation />
+            <Header />
+            <Welcome />
+            <UserIntroduction />
+            <Service />
+            <Contact />
         </>
     );
 }

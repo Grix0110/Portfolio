@@ -1,0 +1,32 @@
+.landing-header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 5em;
+    background-color: grey;
+    position: fixed;
+    text-align: center;
+}
+
+.landing-title:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.header-link {
+    padding-top: 1em;
+    grid-column: 6 / 9;
+}
+
+.link {
+    text-decoration: none;
+    display: inline;
+    padding: 1em 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: white;
+}

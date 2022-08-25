@@ -1,0 +1,25 @@
+.imageInput {
+    grid-column: 3 / 8;
+    grid-row: 3 / 8;
+    justify-self: center;
+    padding: 20em;
+    color: rgba(0, 0, 0, 0);
+}
+
+.imageInput::file-selector-button{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.imageInput:hover{
+    cursor: pointer;
+}
+
+.background {
+    grid-column: 1 / 9;
+    grid-row: 1 / 9;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

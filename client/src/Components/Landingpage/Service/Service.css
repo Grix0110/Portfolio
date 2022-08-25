@@ -13,11 +13,12 @@
     grid-row: 2 / 3;
     color: black;
     text-align: center;
+    align-self: start;
 }
 
 .userlink {
     grid-column: 4 / 6;
-    grid-row: 7 / 9;
+    grid-row: 8 / 9;
     text-align: center;
 }
 
@@ -25,4 +26,31 @@ button {
     height: 3em;
     width: 9em;
     border-radius: 3em;
+}
+
+.imagesCon {
+    grid-column: 1 / 9;
+    grid-row: 2 / 9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3em;
+    justify-self: center;
+}
+
+.imageCon {
+    overflow: hidden;
+    height: 15em;
+    width: 15em;
+    border-radius: 1em;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+li {
+    text-decoration: none;
 }

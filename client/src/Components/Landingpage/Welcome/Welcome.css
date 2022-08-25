@@ -7,9 +7,9 @@
     background-color: mistyrose;
 }
 
-.container-one > h1 {
+/* .container-one > h1 {
     grid-column: 4 / 6;
     grid-row: 2 / 3;
     color: black;
     text-align: center;
-}
+} */
